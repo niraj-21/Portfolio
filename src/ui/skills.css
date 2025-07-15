@@ -1,0 +1,97 @@
+.heading h1{
+    font-size: 6vmin;
+    background: linear-gradient(to right, #0000FF, #ffffff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin: 3rem 0rem;
+}
+.technologies{
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+    padding: 0rem 2rem;
+    margin-left: 3rem;
+    flex-wrap: wrap;
+}
+.tech-logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.technologies h4{
+    color: #D4F1F4;
+    font-size: 3.5vmin;
+}
+.technologies img{
+    height: 5rem;
+    width: 5rem;
+}
+.percent{
+   background-color: #D4F1F4; 
+   border-radius: 2rem;
+   height: 1rem;
+}
+#html{
+    width: 80%;
+    animation: smooth 2s ease-in  1 normal ;
+}
+#css{
+    width: 70%;
+    animation: smooth1 2s ease-in  1 normal ;
+}
+#js{
+    width: 75%;
+    animation: smooth2 2s ease-in  1 normal ;
+}
+#react{
+    width: 70%;
+    animation: smooth3 2s ease-in  1 normal ;
+}
+@keyframes smooth {
+    0%{
+        opacity: 0;
+        width: 0%;
+    }
+    100%{
+        opacity: 1;
+        width: 80%;
+    }
+}
+
+@keyframes smooth1 {
+    0%{
+        opacity: 0;
+        width: 0%;
+    }
+    100%{
+        opacity: 1;
+        width: 70%;
+    }
+}
+
+@keyframes smooth2 {
+    0%{
+        opacity: 0;
+        width: 0%;
+    }
+    100%{
+        opacity: 1;
+        width: 75%;
+    }
+}
+
+@keyframes smooth3 {
+    0%{
+        opacity: 0;
+        width: 0%;
+    }
+    100%{
+        opacity: 1;
+        width: 70%;
+    }
+}

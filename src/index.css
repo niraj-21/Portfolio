@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 62.5%;
+  background: linear-gradient(to right, #050A30, #000000);
+  scroll-behavior: smooth;
+  position: absolute;
+}
